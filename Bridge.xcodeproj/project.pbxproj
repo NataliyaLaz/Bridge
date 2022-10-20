@@ -13,6 +13,7 @@
 		8823B0C62901A4B6007C45FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8823B0C42901A4B6007C45FB /* Main.storyboard */; };
 		8823B0C82901A4B7007C45FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8823B0C72901A4B7007C45FB /* Assets.xcassets */; };
 		8823B0CB2901A4B7007C45FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8823B0C92901A4B7007C45FB /* LaunchScreen.storyboard */; };
+		8823B0D32901A5F4007C45FB /* DayPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823B0D22901A5F4007C45FB /* DayPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8823B0C72901A4B7007C45FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8823B0CA2901A4B7007C45FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8823B0CC2901A4B7007C45FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8823B0D22901A5F4007C45FB /* DayPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				8823B0BE2901A4B6007C45FB /* AppDelegate.swift */,
 				8823B0C02901A4B6007C45FB /* SceneDelegate.swift */,
 				8823B0C22901A4B6007C45FB /* ViewController.swift */,
+				8823B0D22901A5F4007C45FB /* DayPickerView.swift */,
 				8823B0C42901A4B6007C45FB /* Main.storyboard */,
 				8823B0C72901A4B7007C45FB /* Assets.xcassets */,
 				8823B0C92901A4B7007C45FB /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8823B0C32901A4B6007C45FB /* ViewController.swift in Sources */,
+				8823B0D32901A5F4007C45FB /* DayPickerView.swift in Sources */,
 				8823B0BF2901A4B6007C45FB /* AppDelegate.swift in Sources */,
 				8823B0C12901A4B6007C45FB /* SceneDelegate.swift in Sources */,
 			);

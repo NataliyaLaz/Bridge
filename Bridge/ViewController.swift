@@ -9,11 +9,24 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var dayPicker: DayPickerView!
+    
+    var days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        dayPicker.dataSource = self
     }
-
-
 }
+
+extension ViewController: DayPickerViewDataSource {
+    func dayPickerCount(_ dayPicker: DayPickerView) -> Int {
+        days.count
+    }
+    
+    func dayPickerTitle(_ dayPicker: DayPickerView, indexPath: IndexPath) -> String {
+        days[indexPath.row]
+    }
+}
+
 
